@@ -13,12 +13,18 @@
     strictBinaryOperands="true"
 >
     <plugins>
+        <pluginClass class="Psalm\LaravelPlugin\Plugin" />
         <pluginClass class="Psalm\PhpUnitPlugin\Plugin" />
     </plugins>
 
     <projectFiles>
-        <directory name="src/" />
-        <directory name="test/" />
+        <directory name="app/" />
+        <directory name="bootstrap/" />
+        <directory name="config/" />
+        <directory name="database/" />
+        <directory name="resources/" />
+        <directory name="routes/" />
+        <directory name="tests/" />
         <file name="rector.php" />
         <ignoreFiles>
             <directory name="vendor/" />
