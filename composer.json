@@ -1,0 +1,63 @@
+{
+  "name": "localheinz/88bdda90b0b852d7f40f3d29d49c9fea",
+  "description": "Provides a GitHub repository template for a PHP library, using GitHub Actions.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Andreas Möller",
+      "email": "am@localheinz.com"
+    }
+  ],
+  "homepage": "https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea",
+  "support": {
+    "issues": "https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/issues",
+    "source": "https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea",
+    "security": "https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/blob/main/.github/SECURITY.md"
+  },
+  "require": {
+    "php": "~8.1.0 || ~8.2.0"
+  },
+  "require-dev": {
+    "ergebnis/composer-normalize": "^2.33.0",
+    "ergebnis/data-provider": "^2.0.0",
+    "ergebnis/license": "^2.1.0",
+    "ergebnis/php-cs-fixer-config": "^5.11.0",
+    "ergebnis/phpstan-rules": "^2.0.0",
+    "ergebnis/phpunit-slow-test-detector": "^2.3.0",
+    "fakerphp/faker": "^1.23.0",
+    "infection/infection": "~0.27.0",
+    "phpunit/phpunit": "^10.2.5",
+    "psalm/plugin-phpunit": "~0.18.4",
+    "rector/rector": "~0.17.6",
+    "vimeo/psalm": "^5.13.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ergebnis\\Package\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ergebnis\\Package\\Test\\": "test/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true,
+      "ergebnis/composer-normalize": true,
+      "infection/extension-installer": true
+    },
+    "platform": {
+      "php": "8.1.0"
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "composer-normalize": {
+      "indent-size": 2,
+      "indent-style": "space"
+    }
+  }
+}
