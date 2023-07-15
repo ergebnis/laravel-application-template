@@ -30,7 +30,7 @@ help: ## Displays this list of targets with descriptions
 	@grep -E '^[a-zA-Z0-9_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[32m%-30s\033[0m %s\n", $$1, $$2}'
 
 .PHONY: laravel
-laravel: vendor ## Copies the distributable environment variable configuration file and generates an application key
+laravel: vendor ## Copies the distributable environment variable configuration file, generates an application key, and shows application information
 	cp -n .env.example .env || true
 	./artisan key:generate --env=local
 	./artisan about --env=${APP_ENV}
