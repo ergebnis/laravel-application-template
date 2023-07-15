@@ -6,6 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1902cc2...main`][1902cc2...main].
+For a full diff see [`6338d43...main`][6338d43...main].
 
-[1902cc2...main]: https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/compare/1902cc2...main
+[6338d43...main]: https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/compare/6338d43...main
