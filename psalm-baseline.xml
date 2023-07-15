@@ -1,2 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.11.0@c9b192ab8400fdaf04b2b13d110575adc879aa90"/>
+<files psalm-version="5.13.1@086b94371304750d1c673315321a55d15fc59015">
+  <file src="app/Exceptions/Handler.php">
+    <UnusedClosureParam>
+      <code>$e</code>
+    </UnusedClosureParam>
+  </file>
+  <file src="app/Http/Middleware/ValidateSignature.php">
+    <PossiblyUnusedProperty>
+      <code>$except</code>
+    </PossiblyUnusedProperty>
+  </file>
+  <file src="app/Models/User.php">
+    <NonInvariantDocblockPropertyType>
+      <code>$casts</code>
+      <code>$fillable</code>
+      <code>$hidden</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="app/Providers/AppServiceProvider.php">
+    <PossiblyUnusedMethod>
+      <code>boot</code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="app/Providers/AuthServiceProvider.php">
+    <PossiblyUnusedMethod>
+      <code>boot</code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="app/Providers/EventServiceProvider.php">
+    <NonInvariantDocblockPropertyType>
+      <code>$listen</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="app/Providers/RouteServiceProvider.php">
+    <MixedPropertyFetch>
+      <code><![CDATA[$request->user()?->id]]></code>
+    </MixedPropertyFetch>
+  </file>
+  <file src="config/broadcasting.php">
+    <MixedOperand>
+      <code><![CDATA[env('PUSHER_APP_CLUSTER', 'mt1')]]></code>
+    </MixedOperand>
+  </file>
+  <file src="config/cache.php">
+    <MixedArgument>
+      <code><![CDATA[env('APP_NAME', 'laravel')]]></code>
+    </MixedArgument>
+  </file>
+  <file src="config/database.php">
+    <MixedArgument>
+      <code><![CDATA[env('APP_NAME', 'laravel')]]></code>
+    </MixedArgument>
+  </file>
+  <file src="config/filesystems.php">
+    <MixedOperand>
+      <code><![CDATA[env('APP_URL')]]></code>
+    </MixedOperand>
+  </file>
+  <file src="config/logging.php">
+    <MixedOperand>
+      <code><![CDATA[env('PAPERTRAIL_PORT')]]></code>
+      <code><![CDATA[env('PAPERTRAIL_URL')]]></code>
+    </MixedOperand>
+  </file>
+  <file src="config/sanctum.php">
+    <MixedArgument>
+      <code><![CDATA[env('SANCTUM_STATEFUL_DOMAINS', sprintf(
+        '%s%s',
+        'localhost,localhost:3000,127.0.0.1,127.0.0.1:8000,::1',
+        Sanctum::currentApplicationUrlWithPort()
+    ))]]></code>
+    </MixedArgument>
+  </file>
+  <file src="config/session.php">
+    <MixedArgument>
+      <code><![CDATA[env('APP_NAME', 'laravel')]]></code>
+    </MixedArgument>
+  </file>
+  <file src="database/factories/UserFactory.php">
+    <PossiblyUnusedMethod>
+      <code>unverified</code>
+    </PossiblyUnusedMethod>
+    <UnusedClosureParam>
+      <code>$attributes</code>
+    </UnusedClosureParam>
+  </file>
+  <file src="database/seeders/DatabaseSeeder.php">
+    <UnusedClass>
+      <code>DatabaseSeeder</code>
+    </UnusedClass>
+  </file>
+  <file src="routes/api.php">
+    <MissingClosureReturnType>
+      <code>function (Request $request) {</code>
+    </MissingClosureReturnType>
+  </file>
+  <file src="routes/channels.php">
+    <MissingClosureParamType>
+      <code>$id</code>
+      <code>$user</code>
+    </MissingClosureParamType>
+    <MixedPropertyFetch>
+      <code><![CDATA[$user->id]]></code>
+    </MixedPropertyFetch>
+  </file>
+  <file src="routes/console.php">
+    <InvalidScope>
+      <code>$this</code>
+    </InvalidScope>
+  </file>
+  <file src="tests/CreatesApplication.php">
+    <MixedAssignment>
+      <code>$app</code>
+    </MixedAssignment>
+    <MixedInferredReturnType>
+      <code>Foundation\Application</code>
+    </MixedInferredReturnType>
+    <MixedMethodCall>
+      <code>bootstrap</code>
+      <code>make</code>
+    </MixedMethodCall>
+  </file>
+</files>

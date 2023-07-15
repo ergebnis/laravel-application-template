@@ -17,13 +17,18 @@ use Rector\Php81;
 use Rector\PHPUnit;
 
 return static function (Config\RectorConfig $rectorConfig): void {
-    $rectorConfig->cacheDirectory(__DIR__ . '/.build/rector/');
+    $rectorConfig->cacheDirectory(__DIR__.'/.build/rector/');
 
-    $rectorConfig->import(__DIR__ . '/vendor/fakerphp/faker/rector-migrate.php');
+    $rectorConfig->import(__DIR__.'/vendor/fakerphp/faker/rector-migrate.php');
 
     $rectorConfig->paths([
-        __DIR__ . '/src/',
-        __DIR__ . '/test/',
+        __DIR__.'/app/',
+        __DIR__.'/bootstrap/',
+        __DIR__.'/config/',
+        __DIR__.'/database/',
+        __DIR__.'/resources/',
+        __DIR__.'/routes/',
+        __DIR__.'/tests/',
     ]);
 
     $rectorConfig->phpVersion(Core\ValueObject\PhpVersion::PHP_81);

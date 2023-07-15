@@ -1,5 +1,13 @@
 /.build/
 /.note/
 /.phive/
+/node_modules/
+/public/build/
+/public/hot/
+/public/storage/
+/storage/*.key
 /vendor/
 !/.phive/phars.xml
+.env
+.env.backup
+.env.production
