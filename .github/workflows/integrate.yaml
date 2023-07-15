@@ -24,7 +24,6 @@ jobs:
 
     env:
       APP_ENV: "testing"
-      DB_HOST: "127.0.0.1"
 
     services:
       mysql:
@@ -241,7 +240,6 @@ jobs:
 
     env:
       APP_ENV: "testing"
-      DB_HOST: "127.0.0.1"
 
     services:
       mysql:
@@ -496,7 +494,6 @@ jobs:
 
     env:
       APP_ENV: "testing"
-      DB_HOST: "127.0.0.1"
 
     services:
       mysql:
