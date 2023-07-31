@@ -12,19 +12,7 @@
 [![Total Downloads](https://poser.pugx.org/ergebnis/laravel-application-template/downloads)](https://packagist.org/packages/ergebnis/laravel-application-template)
 [![Monthly Downloads](http://poser.pugx.org/ergebnis/laravel-application-template/d/monthly)](https://packagist.org/packages/ergebnis/laravel-application-template)
 
-## Installation
-
-:bulb: This is a great place for showing how to install the package, see below:
-
-Run
-
-```sh
-composer require ergebnis/laravel-application-template
-```
-
-## Usage
-
-:bulb: This is a great place for showing a few usage examples!
+Provides a [GitHub template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for a [Laravel](https://laravel.com) application, using [GitHub Actions]https://docs.github.com/en/actions.
 
 ## Changelog
 

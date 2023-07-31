@@ -1,6 +1,6 @@
 {
   "name": "laravel/laravel",
-  "description": "The skeleton application for the Laravel framework.",
+  "description": "Provides a GitHub template repository for a Laravel application, using GitHub Actions.",
   "license": "MIT",
   "type": "project",
   "keywords": [
