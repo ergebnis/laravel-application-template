@@ -1,5 +1,5 @@
 {
-  "name": "laravel/laravel",
+  "name": "ergebnis/laravel-application-template",
   "description": "Provides a GitHub template repository for a Laravel application, using GitHub Actions.",
   "license": "MIT",
   "type": "project",
