@@ -8,4 +8,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`6338d43...main`][6338d43...main].
 
-[6338d43...main]: https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/compare/6338d43...main
+[6338d43...main]: https://github.com/ergebnis/laravel-application-template/compare/6338d43...main

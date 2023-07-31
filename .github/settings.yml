@@ -68,7 +68,7 @@ repository:
   has_projects: false
   has_wiki: false
   is_template: true
-  name: "88bdda90b0b852d7f40f3d29d49c9fea"
+  name: "laravel-application-template"
   private: false
 
   # https://docs.github.com/en/rest/reference/repos#replace-all-repository-topics

@@ -2,13 +2,13 @@
 
 ## Supported Versions
 
-The following versions of `localheinz/88bdda90b0b852d7f40f3d29d49c9fea` have active support:
+The following versions of `ergebnis/laravel-application-template` have active support:
 
 - `x.y.z`
 
 ## Unsupported Versions
 
-The following versions of `localheinz/88bdda90b0b852d7f40f3d29d49c9fea` have reached their end of life:
+The following versions of `ergebnis/laravel-application-template` have reached their end of life:
 
 - `x.y.z`
 

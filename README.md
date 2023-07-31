@@ -1,16 +1,16 @@
-# 88bdda90b0b852d7f40f3d29d49c9fea
+# laravel-application-template
 
-[![Integrate](https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/workflows/Integrate/badge.svg)](https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/actions)
-[![Merge](https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/workflows/Merge/badge.svg)](https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/actions)
-[![Release](https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/workflows/Release/badge.svg)](https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/actions)
-[![Renew](https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/workflows/Renew/badge.svg)](https://github.com/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/actions)
+[![Integrate](https://github.com/ergebnis/laravel-application-template/workflows/Integrate/badge.svg)](https://github.com/ergebnis/laravel-application-template/actions)
+[![Merge](https://github.com/ergebnis/laravel-application-template/workflows/Merge/badge.svg)](https://github.com/ergebnis/laravel-application-template/actions)
+[![Release](https://github.com/ergebnis/laravel-application-template/workflows/Release/badge.svg)](https://github.com/ergebnis/laravel-application-template/actions)
+[![Renew](https://github.com/ergebnis/laravel-application-template/workflows/Renew/badge.svg)](https://github.com/ergebnis/laravel-application-template/actions)
 
-[![Code Coverage](https://codecov.io/gh/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/branch/main/graph/badge.svg)](https://codecov.io/gh/localheinz/88bdda90b0b852d7f40f3d29d49c9fea)
-[![Type Coverage](https://shepherd.dev/github/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/coverage.svg)](https://shepherd.dev/github/localheinz/88bdda90b0b852d7f40f3d29d49c9fea)
+[![Code Coverage](https://codecov.io/gh/ergebnis/laravel-application-template/branch/main/graph/badge.svg)](https://codecov.io/gh/ergebnis/laravel-application-template)
+[![Type Coverage](https://shepherd.dev/github/ergebnis/laravel-application-template/coverage.svg)](https://shepherd.dev/github/ergebnis/laravel-application-template)
 
-[![Latest Stable Version](https://poser.pugx.org/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/v/stable)](https://packagist.org/packages/localheinz/88bdda90b0b852d7f40f3d29d49c9fea)
-[![Total Downloads](https://poser.pugx.org/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/downloads)](https://packagist.org/packages/localheinz/88bdda90b0b852d7f40f3d29d49c9fea)
-[![Monthly Downloads](http://poser.pugx.org/localheinz/88bdda90b0b852d7f40f3d29d49c9fea/d/monthly)](https://packagist.org/packages/localheinz/88bdda90b0b852d7f40f3d29d49c9fea)
+[![Latest Stable Version](https://poser.pugx.org/ergebnis/laravel-application-template/v/stable)](https://packagist.org/packages/ergebnis/laravel-application-template)
+[![Total Downloads](https://poser.pugx.org/ergebnis/laravel-application-template/downloads)](https://packagist.org/packages/ergebnis/laravel-application-template)
+[![Monthly Downloads](http://poser.pugx.org/ergebnis/laravel-application-template/d/monthly)](https://packagist.org/packages/ergebnis/laravel-application-template)
 
 ## Installation
 
@@ -19,7 +19,7 @@
 Run
 
 ```sh
-composer require localheinz/88bdda90b0b852d7f40f3d29d49c9fea
+composer require ergebnis/laravel-application-template
 ```
 
 ## Usage
