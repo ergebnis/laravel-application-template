@@ -34,7 +34,7 @@
     "phpunit/phpunit": "^10.3.1",
     "psalm/plugin-laravel": "^2.8.0",
     "psalm/plugin-phpunit": "~0.18.4",
-    "rector/rector": "~0.17.10",
+    "rector/rector": "~0.17.12",
     "spatie/laravel-ignition": "^2.2.0",
     "vimeo/psalm": "^5.14.1"
   },
