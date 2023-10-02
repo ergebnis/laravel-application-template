@@ -31,7 +31,7 @@
     "laravel/framework": "^10.15.0",
     "laravel/sanctum": "^3.3.1",
     "laravel/tinker": "^2.8.2",
-    "symfony/http-foundation": "^6.3.4"
+    "symfony/http-foundation": "^6.3.5"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.37.0",
