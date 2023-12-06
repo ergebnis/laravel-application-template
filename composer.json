@@ -39,7 +39,7 @@
     "ergebnis/phpunit-slow-test-detector": "^2.7.0",
     "fakerphp/faker": "^1.23.0",
     "infection/infection": "~0.27.8",
-    "laravel/pint": "^1.13.6",
+    "laravel/pint": "^1.13.7",
     "laravel/sail": "^1.26.2",
     "mockery/mockery": "^1.6.6",
     "nunomaduro/collision": "^7.10.0",
