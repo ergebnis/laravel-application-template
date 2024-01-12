@@ -67,7 +67,7 @@ jobs:
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.0"
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: "${{ env.COMPOSER_CACHE_DIR }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -142,7 +142,7 @@ jobs:
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.0"
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: "${{ env.COMPOSER_CACHE_DIR }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -160,7 +160,7 @@ jobs:
         run: "mkdir -p .build/pint/"
 
       - name: "Cache cache directory for laravel/pint"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: ".build/pint"
           key: "php-${{ matrix.php-version }}-pint-${{ github.ref_name }}"
@@ -206,7 +206,7 @@ jobs:
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.0"
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: "${{ env.COMPOSER_CACHE_DIR }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -280,7 +280,7 @@ jobs:
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.0"
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: "${{ env.COMPOSER_CACHE_DIR }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -342,7 +342,7 @@ jobs:
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.0"
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: "${{ env.COMPOSER_CACHE_DIR }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -357,7 +357,7 @@ jobs:
         run: "mkdir -p .build/rector/"
 
       - name: "Cache cache directory for rector/rector"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: ".build/rector"
           key: "php-${{ matrix.php-version }}-rector-${{ github.ref_name }}"
@@ -402,7 +402,7 @@ jobs:
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.0"
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: "${{ env.COMPOSER_CACHE_DIR }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -453,7 +453,7 @@ jobs:
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.0"
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: "${{ env.COMPOSER_CACHE_DIR }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -537,7 +537,7 @@ jobs:
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.0"
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v3.3.2"
+        uses: "actions/cache@v3.3.3"
         with:
           path: "${{ env.COMPOSER_CACHE_DIR }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
