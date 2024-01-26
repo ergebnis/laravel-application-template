@@ -14,6 +14,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -106,6 +108,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -156,13 +160,10 @@ jobs:
       - name: "Run ergebnis/composer-normalize"
         run: "composer normalize --ansi --dry-run"
 
-      - name: "Create cache directory for laravel/pint"
-        run: "mkdir -p .build/pint/"
-
       - name: "Cache cache directory for laravel/pint"
         uses: "actions/cache@v4.0.0"
         with:
-          path: ".build/pint"
+          path: ".build/pint/"
           key: "php-${{ matrix.php-version }}-pint-${{ github.ref_name }}"
           restore-keys: |
             php-${{ matrix.php-version }}-pint-main
@@ -175,6 +176,8 @@ jobs:
     name: "Dependency Analysis"
 
     runs-on: "ubuntu-latest"
+
+    timeout-minutes: 5
 
     strategy:
       matrix:
@@ -223,12 +226,14 @@ jobs:
           trust-gpg-keys: "0x033E5F8D801A2F8D"
 
       - name: "Run maglnet/composer-require-checker"
-        run: ".phive/composer-require-checker check --config-file=$(pwd)/composer-require-checker.json"
+        run: ".phive/composer-require-checker check --ansi --config-file=$(pwd)/composer-require-checker.json --verbose"
 
   mutation-tests:
     name: "Mutation Tests"
 
     runs-on: "ubuntu-latest"
+
+    timeout-minutes: 5
 
     strategy:
       matrix:
@@ -313,6 +318,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -353,9 +360,6 @@ jobs:
         with:
           dependencies: "${{ matrix.dependencies }}"
 
-      - name: "Create cache directory for rector/rector"
-        run: "mkdir -p .build/rector/"
-
       - name: "Cache cache directory for rector/rector"
         uses: "actions/cache@v4.0.0"
         with:
@@ -372,6 +376,8 @@ jobs:
     name: "Security Analysis"
 
     runs-on: "ubuntu-latest"
+
+    timeout-minutes: 5
 
     strategy:
       matrix:
@@ -420,6 +426,8 @@ jobs:
     name: "Static Code Analysis"
 
     runs-on: "ubuntu-latest"
+
+    timeout-minutes: 5
 
     strategy:
       matrix:
@@ -473,9 +481,6 @@ jobs:
       - name: "Show application information"
         run: "./artisan about --ansi"
 
-      - name: "Create cache directory for vimeo/psalm"
-        run: "mkdir -p .build/psalm/"
-
       - name: "Run vimeo/psalm"
         run: "vendor/bin/psalm --config=psalm.xml --output-format=github --shepherd --show-info=false --stats --threads=4"
 
@@ -483,6 +488,8 @@ jobs:
     name: "Tests"
 
     runs-on: "ubuntu-latest"
+
+    timeout-minutes: 5
 
     strategy:
       matrix:

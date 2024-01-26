@@ -1,9 +1,11 @@
-# https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
 
 updates:
-  - commit-message:
+  - allow:
+      - dependency-type: "all"
+    commit-message:
       include: "scope"
       prefix: "composer"
     directory: "/"

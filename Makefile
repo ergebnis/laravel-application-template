@@ -7,14 +7,12 @@ it: refactoring coding-standards security-analysis static-code-analysis tests ##
 
 .PHONY: code-coverage
 code-coverage: vendor ## Collects coverage from running unit tests with phpunit/phpunit
-	mkdir -p .build/phpunit/
 	vendor/bin/phpunit --configuration=phpunit.xml --coverage-text --testsuite=Unit
 
 .PHONY: coding-standards
-coding-standards: vendor ## Lints YAML files with yamllint, normalizes composer.json with ergebnis/composer-normalize, and fixes code style issues with laravel/pint
+coding-standards: vendor ## Lints YAML files with yamllint, normalizes composer.json with ergebnis/composer-normalize, and fixes code style issues with friendsofphp/php-cs-fixer
 	yamllint -c .yamllint.yaml --strict .
 	composer normalize
-	mkdir -p .build/pint/
 	vendor/bin/pint --config=pint.json -v
 
 .PHONY: database
@@ -23,7 +21,7 @@ database: vendor laravel ## Runs database migrations
 
 .PHONY: dependency-analysis
 dependency-analysis: phive vendor ## Runs a dependency analysis with maglnet/composer-require-checker
-	.phive/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json
+	.phive/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json --verbose
 
 .PHONY: help
 help: ## Displays this list of targets with descriptions
@@ -36,17 +34,14 @@ laravel: vendor ## Copies the distributable environment variable configuration f
 
 .PHONY: mutation-tests
 mutation-tests: vendor laravel database ## Runs mutation tests with infection/infection
-	mkdir -p .build/infection/
 	vendor/bin/infection --configuration=infection.json
 
 .PHONY: phive
 phive: .phive ## Installs dependencies with phive
-	mkdir -p .build/phive/
 	PHIVE_HOME=.build/phive phive install --trust-gpg-keys 0x033E5F8D801A2F8D
 
 .PHONY: refactoring
 refactoring: vendor ## Runs automated refactoring with rector/rector
-	mkdir -p .build/rector/
 	vendor/bin/rector process --config=rector.php
 
 .PHONY: security-analysis
@@ -55,19 +50,16 @@ security-analysis: vendor ## Runs a security analysis with composer
 
 .PHONY: static-code-analysis
 static-code-analysis: vendor laravel ## Runs a static code analysis with vimeo/psalm
-	mkdir -p .build/psalm/
 	vendor/bin/psalm --config=psalm.xml --clear-cache
 	vendor/bin/psalm --config=psalm.xml --show-info=false --stats --threads=4
 
 .PHONY: static-code-analysis-baseline
 static-code-analysis-baseline: vendor laravel ## Generates a baseline for static code analysis with vimeo/psalm
-	mkdir -p .build/psalm/
 	vendor/bin/psalm --config=psalm.xml --clear-cache
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
 
 .PHONY: tests
 tests: vendor laravel database ## Runs unit and feature tests with phpunit/phpunit
-	mkdir -p .build/phpunit/
 	vendor/bin/phpunit --configuration=phpunit.xml --testsuite=Unit
 	vendor/bin/phpunit --configuration=phpunit.xml --testsuite=Feature
 
