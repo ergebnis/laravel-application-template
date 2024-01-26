@@ -31,7 +31,7 @@ return static function (Config\RectorConfig $rectorConfig): void {
         __DIR__.'/tests/',
     ]);
 
-    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_81);
+    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_83);
 
     $rectorConfig->rules([
         Php81\Rector\Property\ReadOnlyPropertyRector::class,
