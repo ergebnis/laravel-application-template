@@ -1,4 +1,4 @@
-# https://github.com/probot/settings
+# https://github.com/repository-settings/app
 
 branches:
   - name: "main"
@@ -23,7 +23,17 @@ branches:
           - context: "Static Code Analysis (8.3, locked)"
           - context: "Tests (8.3, locked)"
         strict: false
-      restrictions: null
+      restrictions:
+
+        # https://docs.github.com/en/rest/reference/repos#list-branches--parameters
+
+        # Note: User, app, and team restrictions are only available for organization-owned repositories.
+        # Set to null to disable when using this configuration for a repository on a personal account.
+
+        apps: []
+        teams: []
+        users:
+          - "ergebnis-bot"
 
 # https://docs.github.com/en/rest/reference/issues#create-a-label
 # https://docs.github.com/en/rest/reference/issues#update-a-label
@@ -73,4 +83,4 @@ repository:
 
   # https://docs.github.com/en/rest/reference/repos#replace-all-repository-topics
 
-  topics: "php, package, template"
+  topics: "laravel, application, template"

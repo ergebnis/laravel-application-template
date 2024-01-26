@@ -12,6 +12,8 @@ jobs:
 
     runs-on: "ubuntu-latest"
 
+    timeout-minutes: 5
+
     strategy:
       matrix:
         php-version:
@@ -54,20 +56,17 @@ jobs:
         with:
           dependencies: "${{ matrix.dependencies }}"
 
-      - name: "Create cache directory for friendsofphp/php-cs-fixer"
-        run: "mkdir -p .build/php-cs-fixer"
-
-      - name: "Cache cache directory for friendsofphp/php-cs-fixer"
+      - name: "Cache cache directory for laravel/pint"
         uses: "actions/cache@v4.0.0"
         with:
-          path: ".build/php-cs-fixer"
-          key: "php-${{ matrix.php-version }}-php-cs-fixer-${{ github.ref_name }}"
+          path: ".build/pint/"
+          key: "php-${{ matrix.php-version }}-pint-${{ github.ref_name }}"
           restore-keys: |
-            php-${{ matrix.php-version }}-php-cs-fixer-main
-            php-${{ matrix.php-version }}-php-cs-fixer-
+            php-${{ matrix.php-version }}-pint-main
+            php-${{ matrix.php-version }}-pint-
 
-      - name: "Run friendsofphp/php-cs-fixer"
-        run: "vendor/bin/php-cs-fixer fix --ansi --config=.php-cs-fixer.php --diff --verbose"
+      - name: "Run laravel/pint"
+        run: "vendor/bin/pint --ansi --config=pint.json -v"
 
       - name: "Commit modified files"
         uses: "stefanzweifel/git-auto-commit-action@v5.0.0"
