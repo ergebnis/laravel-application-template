@@ -30,7 +30,7 @@ jobs:
         env:
           MYSQL_DATABASE: "testing"
           MYSQL_ROOT_HOST: "%"
-          MYSQL_ROOT_PASSWORD: "password"
+          MYSQL_ROOT_PASSWORD: "root"
 
         image: "mysql/mysql-server:8.0"
 
@@ -246,7 +246,7 @@ jobs:
         env:
           MYSQL_DATABASE: "testing"
           MYSQL_ROOT_HOST: "%"
-          MYSQL_ROOT_PASSWORD: "password"
+          MYSQL_ROOT_PASSWORD: "root"
 
         image: "mysql/mysql-server:8.0"
 
@@ -500,7 +500,7 @@ jobs:
         env:
           MYSQL_DATABASE: "testing"
           MYSQL_ROOT_HOST: "%"
-          MYSQL_ROOT_PASSWORD: "password"
+          MYSQL_ROOT_PASSWORD: "root"
 
         image: "mysql/mysql-server:8.0"
 
