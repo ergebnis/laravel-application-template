@@ -43,7 +43,7 @@
     "laravel/sail": "^1.28.0",
     "mockery/mockery": "^1.6.7",
     "nunomaduro/collision": "^7.10.0",
-    "phpunit/phpunit": "^10.5.10",
+    "phpunit/phpunit": "^10.5.11",
     "psalm/plugin-laravel": "^2.8.0",
     "psalm/plugin-phpunit": "~0.18.4",
     "rector/rector": "~1.0.1",
