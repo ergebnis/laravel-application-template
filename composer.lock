@@ -1047,16 +1047,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.45.1",
+            "version": "v10.48.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "dcf5d1d722b84ad38a5e053289130b6962f830bd"
+                "reference": "7e0701bf59cb76a51f7c1f7bea51c0c0c29c0b72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/dcf5d1d722b84ad38a5e053289130b6962f830bd",
-                "reference": "dcf5d1d722b84ad38a5e053289130b6962f830bd",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/7e0701bf59cb76a51f7c1f7bea51c0c0c29c0b72",
+                "reference": "7e0701bf59cb76a51f7c1f7bea51c0c0c29c0b72",
                 "shasum": ""
             },
             "require": {
@@ -1104,6 +1104,7 @@
             "conflict": {
                 "carbonphp/carbon-doctrine-types": ">=3.0",
                 "doctrine/dbal": ">=4.0",
+                "mockery/mockery": "1.6.8",
                 "phpunit/phpunit": ">=11.0.0",
                 "tightenco/collect": "<5.5.33"
             },
@@ -1160,7 +1161,7 @@
                 "league/flysystem-sftp-v3": "^3.0",
                 "mockery/mockery": "^1.5.1",
                 "nyholm/psr7": "^1.2",
-                "orchestra/testbench-core": "^8.18",
+                "orchestra/testbench-core": "^8.23.4",
                 "pda/pheanstalk": "^4.0",
                 "phpstan/phpstan": "^1.4.7",
                 "phpunit/phpunit": "^10.0.7",
@@ -1249,20 +1250,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-02-21T14:07:36+00:00"
+            "time": "2024-03-21T13:36:36+00:00"
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.1.15",
+            "version": "v0.1.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "d814a27514d99b03c85aa42b22cfd946568636c1"
+                "reference": "8ee9f87f7f9eadcbe21e9e72cd4176b2f06cd5b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/d814a27514d99b03c85aa42b22cfd946568636c1",
-                "reference": "d814a27514d99b03c85aa42b22cfd946568636c1",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/8ee9f87f7f9eadcbe21e9e72cd4176b2f06cd5b5",
+                "reference": "8ee9f87f7f9eadcbe21e9e72cd4176b2f06cd5b5",
                 "shasum": ""
             },
             "require": {
@@ -1304,9 +1305,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.15"
+                "source": "https://github.com/laravel/prompts/tree/v0.1.17"
             },
-            "time": "2023-12-29T22:37:42+00:00"
+            "time": "2024-03-13T16:05:43+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -10983,16 +10984,16 @@
         },
         {
             "name": "spatie/laravel-ray",
-            "version": "1.35.1",
+            "version": "1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-ray.git",
-                "reference": "f504d3787d88c7e5de7a4290658f7ad9b1352f22"
+                "reference": "f15936b5d308ae391ee67370a5628f0712537c34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-ray/zipball/f504d3787d88c7e5de7a4290658f7ad9b1352f22",
-                "reference": "f504d3787d88c7e5de7a4290658f7ad9b1352f22",
+                "url": "https://api.github.com/repos/spatie/laravel-ray/zipball/f15936b5d308ae391ee67370a5628f0712537c34",
+                "reference": "f15936b5d308ae391ee67370a5628f0712537c34",
                 "shasum": ""
             },
             "require": {
@@ -11054,7 +11055,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-ray/issues",
-                "source": "https://github.com/spatie/laravel-ray/tree/1.35.1"
+                "source": "https://github.com/spatie/laravel-ray/tree/1.36.0"
             },
             "funding": [
                 {
@@ -11066,7 +11067,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2024-02-13T14:19:41+00:00"
+            "time": "2024-03-29T09:10:11+00:00"
         },
         {
             "name": "spatie/macroable",
