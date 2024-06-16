@@ -41,7 +41,7 @@
     "infection/infection": "~0.27.11",
     "laravel/pint": "^1.16.0",
     "laravel/sail": "^1.29.2",
-    "mockery/mockery": "^1.6.11",
+    "mockery/mockery": "^1.6.12",
     "nunomaduro/collision": "^7.10.0",
     "phpunit/phpunit": "^10.5.21",
     "psalm/plugin-laravel": "^2.11.0",
