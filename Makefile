@@ -6,7 +6,7 @@ APP_ENV:=testing
 it: refactoring coding-standards security-analysis static-code-analysis tests ## Runs the refactoring, coding-standards, security-analysis, static-code-analysis, and tests targets
 
 .PHONY: code-coverage
-code-coverage: vendor ## Collects coverage from running unit tests with phpunit/phpunit
+code-coverage: vendor ## Collects code coverage from running unit tests with phpunit/phpunit
 	vendor/bin/phpunit --configuration=phpunit.xml --coverage-text --testsuite=Unit
 
 .PHONY: coding-standards
@@ -33,7 +33,7 @@ laravel: vendor ## Copies the distributable environment variable configuration f
 	./artisan about --env=${APP_ENV}
 
 .PHONY: mutation-tests
-mutation-tests: vendor laravel database ## Runs mutation tests with infection/infection
+mutation-tests: database laravel vendor ## Runs mutation tests with infection/infection
 	vendor/bin/infection --configuration=infection.json
 
 .PHONY: phive
@@ -49,17 +49,17 @@ security-analysis: vendor ## Runs a security analysis with composer
 	composer audit
 
 .PHONY: static-code-analysis
-static-code-analysis: vendor laravel ## Runs a static code analysis with vimeo/psalm
+static-code-analysis: laravel vendor ## Runs a static code analysis with vimeo/psalm
 	vendor/bin/psalm --config=psalm.xml --clear-cache
 	vendor/bin/psalm --config=psalm.xml --show-info=false --stats --threads=4
 
 .PHONY: static-code-analysis-baseline
-static-code-analysis-baseline: vendor laravel ## Generates a baseline for static code analysis with vimeo/psalm
+static-code-analysis-baseline: laravel vendor ## Generates a baseline for static code analysis with vimeo/psalm
 	vendor/bin/psalm --config=psalm.xml --clear-cache
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
 
 .PHONY: tests
-tests: vendor laravel database ## Runs unit and feature tests with phpunit/phpunit
+tests: database laravel vendor ## Runs unit and feature tests with phpunit/phpunit
 	vendor/bin/phpunit --configuration=phpunit.xml --testsuite=Unit
 	vendor/bin/phpunit --configuration=phpunit.xml --testsuite=Feature
 

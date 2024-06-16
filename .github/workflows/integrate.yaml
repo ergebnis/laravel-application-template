@@ -363,7 +363,7 @@ jobs:
       - name: "Cache cache directory for rector/rector"
         uses: "actions/cache@v4.0.2"
         with:
-          path: ".build/rector"
+          path: ".build/rector/"
           key: "php-${{ matrix.php-version }}-rector-${{ github.ref_name }}"
           restore-keys: |
             php-${{ matrix.php-version }}-rector-main
