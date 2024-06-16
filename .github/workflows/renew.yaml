@@ -66,7 +66,7 @@ jobs:
             php-${{ matrix.php-version }}-pint-
 
       - name: "Run laravel/pint"
-        run: "vendor/bin/pint --ansi --config=pint.json -v"
+        run: "vendor/bin/pint --ansi --config=pint.json"
 
       - name: "Commit modified files"
         uses: "stefanzweifel/git-auto-commit-action@v5.0.1"

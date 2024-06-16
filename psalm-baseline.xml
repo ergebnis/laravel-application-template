@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.20.0@3f284e96c9d9be6fe6b15c79416e1d1903dcfef4">
+<files psalm-version="5.23.1@8471a896ccea3526b26d082f4461eeea467f10a4">
   <file src="app/Exceptions/Handler.php">
     <UnusedClosureParam>
-      <code>$e</code>
+      <code><![CDATA[$e]]></code>
     </UnusedClosureParam>
   </file>
   <file src="app/Http/Middleware/ValidateSignature.php">
     <PossiblyUnusedProperty>
-      <code>$except</code>
+      <code><![CDATA[$except]]></code>
     </PossiblyUnusedProperty>
   </file>
   <file src="app/Models/User.php">
     <NonInvariantDocblockPropertyType>
-      <code>$casts</code>
-      <code>$fillable</code>
-      <code>$hidden</code>
+      <code><![CDATA[$casts]]></code>
+      <code><![CDATA[$fillable]]></code>
+      <code><![CDATA[$hidden]]></code>
     </NonInvariantDocblockPropertyType>
   </file>
   <file src="app/Providers/AppServiceProvider.php">
     <PossiblyUnusedMethod>
-      <code>boot</code>
+      <code><![CDATA[boot]]></code>
     </PossiblyUnusedMethod>
   </file>
   <file src="app/Providers/AuthServiceProvider.php">
     <PossiblyUnusedMethod>
-      <code>boot</code>
+      <code><![CDATA[boot]]></code>
     </PossiblyUnusedMethod>
   </file>
   <file src="app/Providers/EventServiceProvider.php">
     <NonInvariantDocblockPropertyType>
-      <code>$listen</code>
+      <code><![CDATA[$listen]]></code>
     </NonInvariantDocblockPropertyType>
   </file>
   <file src="app/Providers/RouteServiceProvider.php">
@@ -82,26 +82,26 @@
   </file>
   <file src="database/factories/UserFactory.php">
     <PossiblyUnusedMethod>
-      <code>unverified</code>
+      <code><![CDATA[unverified]]></code>
     </PossiblyUnusedMethod>
     <UnusedClosureParam>
-      <code>$attributes</code>
+      <code><![CDATA[$attributes]]></code>
     </UnusedClosureParam>
   </file>
   <file src="database/seeders/DatabaseSeeder.php">
     <UnusedClass>
-      <code>DatabaseSeeder</code>
+      <code><![CDATA[DatabaseSeeder]]></code>
     </UnusedClass>
   </file>
   <file src="routes/api.php">
     <MissingClosureReturnType>
-      <code>function (Request $request) {</code>
+      <code><![CDATA[function (Request $request) {]]></code>
     </MissingClosureReturnType>
   </file>
   <file src="routes/channels.php">
     <MissingClosureParamType>
-      <code>$id</code>
-      <code>$user</code>
+      <code><![CDATA[$id]]></code>
+      <code><![CDATA[$user]]></code>
     </MissingClosureParamType>
     <MixedPropertyFetch>
       <code><![CDATA[$user->id]]></code>
@@ -109,19 +109,19 @@
   </file>
   <file src="routes/console.php">
     <InvalidScope>
-      <code>$this</code>
+      <code><![CDATA[$this]]></code>
     </InvalidScope>
   </file>
   <file src="tests/CreatesApplication.php">
     <MixedAssignment>
-      <code>$app</code>
+      <code><![CDATA[$app]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>Foundation\Application</code>
+      <code><![CDATA[Foundation\Application]]></code>
     </MixedInferredReturnType>
     <MixedMethodCall>
-      <code>bootstrap</code>
-      <code>make</code>
+      <code><![CDATA[bootstrap]]></code>
+      <code><![CDATA[make]]></code>
     </MixedMethodCall>
   </file>
 </files>
