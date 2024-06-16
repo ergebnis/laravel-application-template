@@ -5,7 +5,7 @@ services:
     build:
       args:
         WWWGROUP: "${WWWGROUP}"
-      context: "./vendor/laravel/sail/runtimes/8.2"
+      context: "./vendor/laravel/sail/runtimes/8.3"
       dockerfile: "Dockerfile"
 
     depends_on:
@@ -21,7 +21,7 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
-    image: "sail-8.2/app"
+    image: "sail-8.3/app"
 
     networks:
       - "sail"
