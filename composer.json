@@ -27,7 +27,7 @@
     "ext-mbstring": "*",
     "ext-pdo": "*",
     "ext-pdo_mysql": "*",
-    "guzzlehttp/guzzle": "^7.9.0",
+    "guzzlehttp/guzzle": "^7.9.1",
     "laravel/framework": "^10.48.15",
     "laravel/sanctum": "^3.3.3",
     "laravel/tinker": "^2.9.0",
