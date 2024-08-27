@@ -7793,16 +7793,16 @@
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v8.26.0",
+            "version": "v8.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "c3bc4a4440b312035da6659b87973a4cda584476"
+                "reference": "95185200e654c75e4d5d6626f6ec139c5a4699ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/c3bc4a4440b312035da6659b87973a4cda584476",
-                "reference": "c3bc4a4440b312035da6659b87973a4cda584476",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/95185200e654c75e4d5d6626f6ec139c5a4699ca",
+                "reference": "95185200e654c75e4d5d6626f6ec139c5a4699ca",
                 "shasum": ""
             },
             "require": {
@@ -7813,6 +7813,7 @@
             "conflict": {
                 "brianium/paratest": "<6.4.0 || >=7.0.0 <7.1.4 || >=8.0.0",
                 "laravel/framework": "<10.48.20 || >=11.0.0",
+                "laravel/serializable-closure": "<1.3.0 || >=2.0.0",
                 "nunomaduro/collision": "<6.4.0 || >=7.0.0 <7.4.0 || >=8.0.0",
                 "orchestra/testbench-dusk": "<8.21.0 || >=9.0.0",
                 "orchestra/workbench": "<1.0.0",
@@ -7881,7 +7882,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-08-14T05:31:02+00:00"
+            "time": "2024-08-26T04:43:39+00:00"
         },
         {
             "name": "phar-io/manifest",
