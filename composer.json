@@ -30,7 +30,7 @@
     "guzzlehttp/guzzle": "^7.9.2",
     "laravel/framework": "^10.48.15",
     "laravel/sanctum": "^3.3.3",
-    "laravel/tinker": "^2.9.0",
+    "laravel/tinker": "^2.10.0",
     "symfony/http-foundation": "^6.4.8"
   },
   "require-dev": {
