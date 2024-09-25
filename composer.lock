@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cace6430a1a8482ff4f6636c3994dcfd",
+    "content-hash": "6c427c1af95f976eac42e7c6888cae45",
     "packages": [
         {
             "name": "brick/math",
@@ -1052,16 +1052,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.48.20",
+            "version": "v10.48.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "be2be342d4c74db6a8d2bd18469cd6d488ab9c98"
+                "reference": "c4ea52bb044faef4a103d7dd81746c01b2ec860e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/be2be342d4c74db6a8d2bd18469cd6d488ab9c98",
-                "reference": "be2be342d4c74db6a8d2bd18469cd6d488ab9c98",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c4ea52bb044faef4a103d7dd81746c01b2ec860e",
+                "reference": "c4ea52bb044faef4a103d7dd81746c01b2ec860e",
                 "shasum": ""
             },
             "require": {
@@ -1255,7 +1255,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-08-09T07:55:45+00:00"
+            "time": "2024-09-12T15:00:09+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -1444,16 +1444,16 @@
         },
         {
             "name": "laravel/tinker",
-            "version": "v2.9.0",
+            "version": "v2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/tinker.git",
-                "reference": "502e0fe3f0415d06d5db1f83a472f0f3b754bafe"
+                "reference": "ba4d51eb56de7711b3a37d63aa0643e99a339ae5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/tinker/zipball/502e0fe3f0415d06d5db1f83a472f0f3b754bafe",
-                "reference": "502e0fe3f0415d06d5db1f83a472f0f3b754bafe",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/ba4d51eb56de7711b3a37d63aa0643e99a339ae5",
+                "reference": "ba4d51eb56de7711b3a37d63aa0643e99a339ae5",
                 "shasum": ""
             },
             "require": {
@@ -1504,9 +1504,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/tinker/issues",
-                "source": "https://github.com/laravel/tinker/tree/v2.9.0"
+                "source": "https://github.com/laravel/tinker/tree/v2.10.0"
             },
-            "time": "2024-01-04T16:10:04+00:00"
+            "time": "2024-09-23T13:32:56+00:00"
         },
         {
             "name": "league/commonmark",
@@ -3696,16 +3696,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v6.4.10",
+            "version": "v6.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "117f1f20a7ade7bcea28b861fb79160a21a1e37b"
+                "reference": "133ac043875f59c26c55e79cf074562127cce4d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/117f1f20a7ade7bcea28b861fb79160a21a1e37b",
-                "reference": "117f1f20a7ade7bcea28b861fb79160a21a1e37b",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/133ac043875f59c26c55e79cf074562127cce4d2",
+                "reference": "133ac043875f59c26c55e79cf074562127cce4d2",
                 "shasum": ""
             },
             "require": {
@@ -3753,7 +3753,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v6.4.10"
+                "source": "https://github.com/symfony/http-foundation/tree/v6.4.12"
             },
             "funding": [
                 {
@@ -3769,20 +3769,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-26T12:36:27+00:00"
+            "time": "2024-09-20T08:18:25+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v6.4.11",
+            "version": "v6.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "1ba6b89d781cb47448155cc70dd2e0f1b0584c79"
+                "reference": "96df83d51b5f78804f70c093b97310794fd6257b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/1ba6b89d781cb47448155cc70dd2e0f1b0584c79",
-                "reference": "1ba6b89d781cb47448155cc70dd2e0f1b0584c79",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/96df83d51b5f78804f70c093b97310794fd6257b",
+                "reference": "96df83d51b5f78804f70c093b97310794fd6257b",
                 "shasum": ""
             },
             "require": {
@@ -3867,7 +3867,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v6.4.11"
+                "source": "https://github.com/symfony/http-kernel/tree/v6.4.12"
             },
             "funding": [
                 {
@@ -3883,7 +3883,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-30T16:57:20+00:00"
+            "time": "2024-09-21T06:02:57+00:00"
         },
         {
             "name": "symfony/mailer",
