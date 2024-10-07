@@ -7798,16 +7798,16 @@
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v8.28.1",
+            "version": "v8.28.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "a5ab70e78378363b69220ae5771dabe8c885a25e"
+                "reference": "053c8655ae46225f52e69e6d2c1b2313bdf54611"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/a5ab70e78378363b69220ae5771dabe8c885a25e",
-                "reference": "a5ab70e78378363b69220ae5771dabe8c885a25e",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/053c8655ae46225f52e69e6d2c1b2313bdf54611",
+                "reference": "053c8655ae46225f52e69e6d2c1b2313bdf54611",
                 "shasum": ""
             },
             "require": {
@@ -7887,7 +7887,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-09-24T05:26:51+00:00"
+            "time": "2024-10-06T11:18:11+00:00"
         },
         {
             "name": "phar-io/manifest",
