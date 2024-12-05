@@ -34,7 +34,7 @@
     "symfony/http-foundation": "^6.4.8"
   },
   "require-dev": {
-    "ergebnis/composer-normalize": "^2.44.0",
+    "ergebnis/composer-normalize": "^2.45.0",
     "ergebnis/data-provider": "^3.4.0",
     "ergebnis/phpunit-slow-test-detector": "^2.17.0",
     "fakerphp/faker": "^1.24.1",
