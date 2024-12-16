@@ -4076,8 +4076,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -7844,16 +7844,16 @@
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v8.30.0",
+            "version": "v8.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "dd5d77d01bc1788cb328016eca6881fe07c2118d"
+                "reference": "c7ff1324cff57adde1b54d7f2aad56dd32ce2890"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/dd5d77d01bc1788cb328016eca6881fe07c2118d",
-                "reference": "dd5d77d01bc1788cb328016eca6881fe07c2118d",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/c7ff1324cff57adde1b54d7f2aad56dd32ce2890",
+                "reference": "c7ff1324cff57adde1b54d7f2aad56dd32ce2890",
                 "shasum": ""
             },
             "require": {
@@ -7878,7 +7878,7 @@
                 "mockery/mockery": "^1.5.1",
                 "phpstan/phpstan": "^2.0",
                 "phpunit/phpunit": "^10.1",
-                "spatie/laravel-ray": "^1.32.4",
+                "spatie/laravel-ray": "^1.39",
                 "symfony/process": "^6.2",
                 "symfony/yaml": "^6.2",
                 "vlucas/phpdotenv": "^5.4.1"
@@ -7934,7 +7934,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-12-01T09:20:16+00:00"
+            "time": "2024-12-15T14:07:11+00:00"
         },
         {
             "name": "phar-io/manifest",
