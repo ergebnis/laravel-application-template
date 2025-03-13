@@ -28,7 +28,7 @@
     "ext-pdo": "*",
     "ext-pdo_mysql": "*",
     "guzzlehttp/guzzle": "^7.9.2",
-    "laravel/framework": "^10.48.23",
+    "laravel/framework": "^10.48.29",
     "laravel/sanctum": "^3.3.3",
     "laravel/tinker": "^2.10.1",
     "symfony/http-foundation": "^6.4.8"
